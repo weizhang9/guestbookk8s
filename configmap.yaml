@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: example-configmap
+data:
+  config.json: |
+    {"redis_master":"redis-master-clusterip", "redis_slave":"redis-slave-clusterip"}
